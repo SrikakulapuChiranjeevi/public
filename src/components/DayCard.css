@@ -1,0 +1,16 @@
+.day__people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: 120px; /* Set a maximum height, adjust as needed */
+  overflow: hidden; /* Hide overflow if there are too many items */
+}
+
+.day__person {
+  margin-right: 5px; /* Adjust the margin between items as needed */
+  margin-bottom: 5px; /* Adjust the margin between rows as needed */
+  padding: 2px 5px; /* Adjust padding as needed */
+  background-color: #555; /* Add a background color for better visibility */
+  color: #fff; /* Set text color */
+}

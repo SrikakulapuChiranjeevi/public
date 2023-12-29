@@ -1,0 +1,13 @@
+/* components/PersonSquare.css */
+.day__person {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 2px;
+    font-size: 12px;
+  }
+  
